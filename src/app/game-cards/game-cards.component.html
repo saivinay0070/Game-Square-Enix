@@ -1,0 +1,20 @@
+<div class="background">
+    <div class="container">
+        <div class="row">
+            <!-- card design starts here -->
+            <div class="col-sm-3" *ngFor="let game of games">
+                <div class="card border_margin">
+                    <!-- game image -->
+                    <app-game-image [gameImage]="game.background_image"></app-game-image>
+                    <div class="card-block">
+                        <h4 class="card-title alignment">{{game.name}}</h4>
+                        <!-- game description component(child component) -->
+                        <app-game-description [data]="game"></app-game-description>
+                    </div>
+                </div>
+            </div>
+            <!-- card design ends here -->
+
+        </div>
+    </div>
+</div>

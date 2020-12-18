@@ -1,0 +1,19 @@
+.border-line {
+    border-top:1px solid rgba(0,0,0,.125) ;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+  }
+  .alignHeight{
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .genreHeight{
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }

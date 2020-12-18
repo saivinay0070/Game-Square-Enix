@@ -1,0 +1,28 @@
+<!-- description about the game starts here -->
+
+<!-- platforms released on -->
+<ul class="list-group">
+  <li class=" border-line alignHeight">
+    platforms released on:
+    <span *ngFor="let platforms_list of games_description.parent_platforms; let last = last">
+      <span>{{platforms_list.platform.name}}<span *ngIf="!last">, </span>
+      </span>
+    </span>
+  </li>
+
+  <li class=" border-line ">Release Date: {{games_description.released}}</li>
+
+
+  <!-- genres -->
+  <li class=" border-line genreHeight">
+    genres:
+    <span *ngFor="let genres of games_description.genres; let last = last">
+      {{genres.name}}
+      <span *ngIf="!last">, </span>
+    </span>
+    
+  </li>
+
+  <li class=" border-line">game rating: {{games_description.rating}}</li>
+</ul>
+<!-- description about the game starts here -->

@@ -1,0 +1,22 @@
+
+  .border-line {
+    border-top:1px solid rgba(0,0,0,.125) ;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+  }
+  .alignment{
+    text-align: center;
+    vertical-align: cente;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .border_margin{
+    margin-top: 45px;
+  }
+  .background{
+    background-image: radial-gradient(#eecedc, #c1d1e5);
+    text-align: center;
+  }
